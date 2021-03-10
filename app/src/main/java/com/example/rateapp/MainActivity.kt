@@ -43,6 +43,12 @@ class MainActivity : AppCompatActivity() {
                             Toast.makeText(this, "Rate later clicked", Toast.LENGTH_SHORT).show()
                     }
                 }
+                // For user to change title, message and -ve, +ve and neutral button
+//                .setMessage("Siddhant Goyal App ko Rate kre")
+//                .setTitle("Rate My App")
+//                .setTextLater("R.string.new_rate_dialog_later")
+//                .setTextNever("R.string.new_rate_dialog_never")
+//                .setTextRateNow("R.string.new_rate_dialog_ok")
                 .monitor();
 
 
